@@ -1,16 +1,21 @@
-# arc_item
+## Curved Arc Menu (Flutter)
 
-A new Flutter project.
+A swipeable, snapping **arc menu** with **concave U-shaped cards**, inspired by modern mobile assistants.  
+- Smooth, single-cubic on the card itself  
+- Centered icon + label  
+- Gently fanned layout where cards “kiss” with a tiny gutter  
+- Overflow-safe: tops don’t get clipped while swiping
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Preview
 
-A few resources to get you started if this is your first Flutter project:
+https://github.com/user-attachments/assets/020bda87-72c7-4d71-aa8e-f977f3d04039
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- Wedged shaped card geometry (actual shape, not a shadow trick)
+- Snapping interaction with subtle scale/tilt emphasis on the focused card
+- Creamy panel gradient, faint rim, and soft ambient shadow
+
